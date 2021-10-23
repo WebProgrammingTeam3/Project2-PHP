@@ -1,0 +1,15 @@
+table{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+#value {
+    color:white;
+    text-display: none;
+}
+#value:hover{
+    color:yellow;
+    font-width: bold;
+}
+#question {
+    font-size: 30px;
