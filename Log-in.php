@@ -7,8 +7,8 @@
     <title>Pick a Team</title>
 </head>
 <body>
-    <h1>Pick a Team</h1>
 
+    <h1>Teams</h1>
     <?php
 
 
