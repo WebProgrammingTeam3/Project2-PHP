@@ -74,3 +74,20 @@ Buildings 500
 What is the former name of GSU's new football stadium?
 Turner Field (correct)
 Suntrust Park
+
+Parking 100
+Where is the cheapest place to park at GSU?
+Blue Lot (correct)
+M Deck
+
+Parking 200
+
+
+Parking 300
+
+
+Parking 400
+
+
+Parking 500
+
