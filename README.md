@@ -81,13 +81,21 @@ Blue Lot (correct)
 M Deck
 
 Parking 200
-
+What Color is the parking pass?
+Blue  (correct)
+Orange  
 
 Parking 300
-
+How much does M deck pass cost for the semester?
+$350 (correct)
+$500 
 
 Parking 400
-
+what was the parking called before it was green lot?
+Turner field (correct)
+Olympic park (correct)
 
 Parking 500
-
+what is the entry fee for visitor's parking on mon - fri?
+$10 (correct)
+$20
