@@ -93,7 +93,7 @@ $500
 Parking 400
 what was the parking called before it was green lot?
 Turner field (correct)
-Olympic park (correct)
+Olympic park 
 
 Parking 500
 what is the entry fee for visitor's parking on mon - fri?
