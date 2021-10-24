@@ -5,17 +5,17 @@ table{
 }
 #value {
     color:white;
-    text-display: none;
+    text-decoration: none;
 }
 #value:hover{
     color:yellow;
-    font-width: bold;
+    font-weight: bold;
 }
 #question {
     font-size: 30px;
 }
 .scoreboard{
-    alignment: center;
+    align-items: center;
     text-align: center;
     display: grid;
     padding: 25px;
@@ -31,7 +31,7 @@ table{
 }
 .teams{
     border: 3px solid black;
-    pading: 30px;
+    padding: 30px;
     background-color: yellow;
     font-weight: bold;
     border-bottom: 1px solid #ddd;
@@ -48,4 +48,8 @@ table{
     padding: 30px;
     font-size: 2em;
     color: #2CB3C9;
+}
+
+.game {
+    text-align: center;
 }
