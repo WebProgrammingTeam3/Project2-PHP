@@ -13,3 +13,39 @@ table{
 }
 #question {
     font-size: 30px;
+}
+.scoreboard{
+    alignment: center;
+    text-align: center;
+    display: grid;
+    padding: 25px;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    font-family: 'Quicksand', sans-serif;
+}
+.teams,
+.score{
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+}
+.teams{
+    border: 3px solid black;
+    pading: 30px;
+    background-color: yellow;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+.teams1 {
+    color: green;
+}
+.teams2 {
+    color: red;
+}
+.score {
+    background-color: yellow;
+    border: 3px solid black;
+    padding: 30px;
+    font-size: 2em;
+    color: #2CB3C9;
+}
