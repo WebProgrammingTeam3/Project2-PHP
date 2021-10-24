@@ -20,13 +20,9 @@ if($_SESSION['UserData']['Username'] == "team1"){
 	<title>Document</title>
 </head>
 <body>
-
-	<h1>GAME LOBBY</h1>
+	<h1>IN GAME</h1>
 	<a href="logout.php">Click here</a> to Logout.
 	<?php echo $message; ?>
-
-	
-	
 </body>
 </html>
 

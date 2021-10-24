@@ -25,7 +25,7 @@
 		if (isset($logins[$Username]) && $logins[$Username] == $Password){
 			/* Success: Set session variables and redirect to Protected page  */
 			$_SESSION['UserData']['Username']=$logins[$Username];
-			header("location:index.php");
+			header("location:jeopardy.php");
 			exit;
 		} else {
 			/*Unsuccessful attempt: Set error message */

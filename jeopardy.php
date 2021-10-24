@@ -1,3 +1,17 @@
+<?php session_start(); /* Starts the session */
+
+if(!isset($_SESSION['UserData']['Username'])){
+	header("location:login.php");
+	exit;
+}
+
+if($_SESSION['UserData']['Username'] == "team1"){
+	$message = "<h2>You are on Team One</h2>";
+} else {
+	$message = "<h2>You are on Team Two</h2>";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,6 +41,13 @@
         <td><a id = "value" href="food5.html">$500</a></td><td><a id = "value" href="buildings5.html">$500</a></td><td><a id = "value" href="compSci5.html">$500</a></td><td><a id = "value" href="parking5.html">$500</a></td><td><a id = "value" href="OtherDegrees5.html">$500</a></td>
     </tr>
 </table>
+
+
+<div class="game-status">
+    <h1>IN GAME</h1>
+        <a href="logout.php">Click here</a> to Logout.
+        <?php echo $message; ?>
+</div>
 
 </body>
 </html>
