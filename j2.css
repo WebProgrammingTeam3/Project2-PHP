@@ -64,7 +64,7 @@ table{
 	font-size: 1.2em;
 }
 
-.scoreboard__control-button:hover {
+.button:hover {
 	background: #ddd;
 }
 
