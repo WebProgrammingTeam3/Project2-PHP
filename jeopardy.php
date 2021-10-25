@@ -22,11 +22,11 @@ if (!isset($_POST['add1'])) {
 
 $team2 = 0;
 if (!isset($_POST['minus2'])) {
-    $_SESSION['team1'] = $_SESSION['team1'] - 100; 
+    $_SESSION['team1'] = $_SESSION['team2'] - 100; 
 }
 
 if (!isset($_POST['add2'])) {
-    $_SESSION['team1'] = $_SESSION['team1'] + 100; 
+    $_SESSION['team1'] = $_SESSION['team2'] + 100; 
 }
 
 
