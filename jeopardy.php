@@ -76,23 +76,21 @@ if (!isset($_POST['add2'])) {
 
     <div class="scoreboard">
 
-    <div class = "teams teams1"> Team 1</div>
-    <div class="score"><h1>Team 1: <?php echo $_SESSION['team1'] ?> </h1></div>
-        <div class="controls" Teamsscore1="one">
-            <form method="post">
-                <button class="buttons" name="minus1" type="submit" value="+">+</button>
-                <button class="buttons" name="add1" type="submit" value="-">-</button>
-            </form>
-    </div>
+        <div class="score"><h1>Team 1: <?php echo $_SESSION['team1'] ?> </h1></div>
+            <div class="controls" Teamsscore1="one">
+                <form method="post">
+                    <button class="buttons" name="minus1" type="submit" value="+">+</button>
+                    <button class="buttons" name="add1" type="submit" value="-">-</button>
+                </form>
+        </div>
 
-    <div class = "teams teams2"> Team 2</div>
-    <div class="score"><h1>Team 2: <?php echo $_SESSION['team2'] ?> </h1></div>
-    <div class="controls" Teamsscore2="two">
-        <form method="post">
-            <button class="buttons" name="minus2" type="submit" value="+">+</button>
-            <button class="buttons"name="add2" type="submit" value="-">-</button>
-        </form>
-    </div>
+        <div class="score"><h1>Team 2: <?php echo $_SESSION['team2'] ?> </h1></div>
+        <div class="controls" Teamsscore2="two">
+            <form method="post">
+                <button class="buttons" name="minus2" type="submit" value="+">+</button>
+                <button class="buttons"name="add2" type="submit" value="-">-</button>
+            </form>
+        </div>
     </div>
 
 
