@@ -10,6 +10,27 @@ if($_SESSION['UserData']['Username'] == "team1"){
 } else {
 	$message = "<h2>You are on Team Two</h2>";
 }
+
+$team1 = 0;
+if (!isset($_POST['minus1'])) {
+    $_SESSION['team1'] = $_SESSION['team1'] - 100; 
+}
+
+if (!isset($_POST['add1'])) {
+    $_SESSION['team1'] = $_SESSION['team1'] + 100; 
+}
+
+$team2 = 0;
+if (!isset($_POST['minus2'])) {
+    $_SESSION['team1'] = $_SESSION['team1'] - 100; 
+}
+
+if (!isset($_POST['add2'])) {
+    $_SESSION['team1'] = $_SESSION['team1'] + 100; 
+}
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -50,6 +71,29 @@ if($_SESSION['UserData']['Username'] == "team1"){
             <td><a id = "value" href="food5.html">$500</a></td><td><a id = "value" href="buildings5.html">$500</a></td><td><a id = "value" href="compSci5.html">$500</a></td><td><a id = "value" href="parking5.html">$500</a></td><td><a id = "value" href="OtherDegrees5.html">$500</a></td>
         </tr>
     </table>
+
+
+
+    <div class="scoreboard">
+
+    <div class = "teams teams1"> Team 1</div>
+    <div class="score"><h1>Team 1: <?php echo $_SESSION['team1'] ?> </h1></div>
+        <div class="controls" Teamsscore1="one">
+            <form method="post">
+                <button class="buttons" name="minus1" type="submit" value="+">+</button>
+                <button class="buttons" name="add1" type="submit" value="-">-</button>
+            </form>
+    </div>
+
+    <div class = "teams teams2"> Team 2</div>
+    <div class="score"><h1>Team 2: <?php echo $_SESSION['team2'] ?> </h1></div>
+    <div class="controls" Teamsscore2="two">
+        <form method="post">
+            <button class="buttons" name="minus2" type="submit" value="+">+</button>
+            <button class="buttons"name="add2" type="submit" value="-">-</button>
+        </form>
+    </div>
+    </div>
 
 
 

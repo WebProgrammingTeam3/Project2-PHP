@@ -42,7 +42,7 @@
 </head>
 <body>
 <div id="Frame0">
-  <h1>Please Log In to Play</h1>
+  <h1>Welcome to Jeopardy</h1>
 
 </div>
 <br>
@@ -54,7 +54,7 @@
     </tr>
     <?php } ?>
     <tr>
-      <td colspan="2" align="left" valign="top"><h3>Login</h3></td>
+      <td style ="text-align: center" colspan="2" align="left" valign="top"><h3>Please Log in to Play!</h3></td>
     </tr>
     <tr>
       <td align="right" valign="top">Username</td>

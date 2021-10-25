@@ -4,6 +4,10 @@ body {
 	color: #333;
 	background-color: #FFF;
 }
+
+h1, h2 {
+	text-align: center;
+}
 a {
 	-moz-user-select: none;
 	color: #1155CC !important;
@@ -87,3 +91,4 @@ h3 {
 .Table td {
 	background-color: #F8F8F8;
 }
+
