@@ -13,20 +13,20 @@ if($_SESSION['UserData']['Username'] == "team1"){
 
 $team1 = 0;
 if (!isset($_POST['minus1'])) {
-    $_SESSION['team1'] = $_SESSION['team1'] - 100; 
+    $_SESSION['team1']--; 
 }
 
 if (!isset($_POST['add1'])) {
-    $_SESSION['team1'] = $_SESSION['team1'] + 100; 
+    $_SESSION['team1']++; 
 }
 
 $team2 = 0;
 if (!isset($_POST['minus2'])) {
-    $_SESSION['team1'] = $_SESSION['team2'] - 100; 
+    $_SESSION['team1']--; 
 }
 
 if (!isset($_POST['add2'])) {
-    $_SESSION['team1'] = $_SESSION['team2'] + 100; 
+    $_SESSION['team1']++; 
 }
 
 
